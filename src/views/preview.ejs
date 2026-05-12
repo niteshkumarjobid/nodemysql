@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= article.title %></title>
+</head>
+<body>
+  <h1><%= article.title %></h1>
+
+  <p><strong>Author:</strong> <%= article.author %></p>
+
+  <p><strong>Keywords:</strong> <%= article.keywords %></p>
+
+  <p><strong>Summary:</strong> <%= article.summary %></p>
+
+  <hr>
+
+  <div>
+    <%- article.content %>
+  </div>
+</body>
+</html>
